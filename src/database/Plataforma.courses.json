@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "66eaee833f35b9334627ac2c"
+  },
+  "name": "Elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaeeb63f35b9334627ac2d"
+  },
+  "name": "A1"
+},
+{
+  "_id": {
+    "$oid": "66eaeeee3f35b9334627ac2e"
+  },
+  "name": "A2"
+},
+{
+  "_id": {
+    "$oid": "66eaef4d3f35b9334627ac2f"
+  },
+  "name": "B1"
+}]

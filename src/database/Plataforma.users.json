@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "66eaf8ea3f35b9334627ac6c"
+  },
+  "rol": "student",
+  "name": "Francisco",
+  "mName": "Manuel",
+  "lname": "Vazquez Luna",
+  "user": "paco97",
+  "email": "franciscoV@mail.com",
+  "password": "1234",
+  "courses": [
+    {
+      "$oid": "66eaee833f35b9334627ac2c"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66eafd3a3f35b9334627ac6f"
+  },
+  "rol": "teacher",
+  "name": "Harold",
+  "mName": "",
+  "lname": "Carazas",
+  "user": "harold123",
+  "email": "haroldC@mail.com",
+  "password": "",
+  "courses": [
+    {
+      "$oid": "66eaee833f35b9334627ac2c"
+    }
+  ]
+}]

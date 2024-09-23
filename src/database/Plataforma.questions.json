@@ -1,0 +1,130 @@
+[{
+  "_id": {
+    "$oid": "66eaf2153f35b9334627ac39"
+  },
+  "type": "simple",
+  "question": "How do you say “gato” in English?",
+  "answer": "cat",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf3363f35b9334627ac41"
+  },
+  "type": "simple",
+  "question": "What is the plural of “book”?",
+  "answer": "books",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf3963f35b9334627ac42"
+  },
+  "type": "simple",
+  "question": "What is the past tense of “play”?",
+  "answer": "played",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf3ac3f35b9334627ac43"
+  },
+  "type": "simple",
+  "question": "What is the opposite of “tall”?",
+  "answer": "short",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf3ae3f35b9334627ac44"
+  },
+  "type": "multiple",
+  "question": "What is the correct form of the verb in this sentence? She ____ to the park every day.",
+  "options": [
+    "go",
+    "goes",
+    "going",
+    "gone"
+  ],
+  "answer": "goes",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf4b73f35b9334627ac45"
+  },
+  "type": "multiple",
+  "question": "Which word is a color?",
+  "options": [
+    "table",
+    "quickly",
+    "blue",
+    "sing"
+  ],
+  "answer": "blue",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf51e3f35b9334627ac46"
+  },
+  "type": "multiple",
+  "question": "Which sentence is correct?",
+  "options": [
+    "She are happy",
+    "They is happy",
+    "I am happy",
+    "He am happy"
+  ],
+  "answer": "I am happy",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf5a73f35b9334627ac47"
+  },
+  "type": "multiple",
+  "question": "Which word completes this sentence correctly? I ____ reading a book",
+  "options": [
+    "is",
+    "are",
+    "am",
+    "be"
+  ],
+  "answer": "am",
+  "points": 10,
+  "level": "elementary"
+},
+{
+  "_id": {
+    "$oid": "66eaf6573f35b9334627ac4a"
+  },
+  "type": "video",
+  "question": "Record a video talking about your family members",
+  "points": "20",
+  "level": "elemtary"
+},
+{
+  "_id": {
+    "$oid": "66ef9fc685bc098b97a9c827"
+  },
+  "type": "simple",
+  "question": "¿Cuál es la capital de Francia?",
+  "answer": "París",
+  "points": 5,
+  "level": "elementary",
+  "createdAt": {
+    "$date": "2024-09-22T04:40:38.204Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-22T04:40:38.204Z"
+  },
+  "__v": 0
+}]

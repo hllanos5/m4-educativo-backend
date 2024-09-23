@@ -1,0 +1,160 @@
+[{
+  "_id": {
+    "$oid": "66eaeff23f35b9334627ac31"
+  },
+  "couses": {
+    "$oid": "66eaee833f35b9334627ac2c"
+  },
+  "questions": [
+    {
+      "$oid": "66eaf2153f35b9334627ac39"
+    },
+    {
+      "$oid": "66eaf3363f35b9334627ac41"
+    },
+    {
+      "$oid": "66eaf3963f35b9334627ac42"
+    },
+    {
+      "$oid": "66eaf3ac3f35b9334627ac43"
+    },
+    {
+      "$oid": "66eaf3ae3f35b9334627ac44"
+    },
+    {
+      "$oid": "66eaf4b73f35b9334627ac45"
+    },
+    {
+      "$oid": "66eaf51e3f35b9334627ac46"
+    },
+    {
+      "$oid": "66eaf5a73f35b9334627ac47"
+    },
+    {
+      "$oid": "66eaf6573f35b9334627ac4a"
+    }
+  ],
+  "maxScore": 20,
+  "time": 7200,
+  "name": "elementaryExam"
+},
+{
+  "_id": {
+    "$oid": "66eaf8433f35b9334627ac5b"
+  },
+  "couses": {
+    "$oid": "66eaeeb63f35b9334627ac2d"
+  },
+  "questions": [
+    {
+      "$oid": "66eaf2153f35b9334627ac39"
+    },
+    {
+      "$oid": "66eaf3363f35b9334627ac41"
+    },
+    {
+      "$oid": "66eaf3963f35b9334627ac42"
+    },
+    {
+      "$oid": "66eaf3ac3f35b9334627ac43"
+    },
+    {
+      "$oid": "66eaf3ae3f35b9334627ac44"
+    },
+    {
+      "$oid": "66eaf4b73f35b9334627ac45"
+    },
+    {
+      "$oid": "66eaf51e3f35b9334627ac46"
+    },
+    {
+      "$oid": "66eaf5a73f35b9334627ac47"
+    },
+    {
+      "$oid": "66eaf6573f35b9334627ac4a"
+    }
+  ],
+  "maxScore": 20,
+  "time": 7200,
+  "name": "a1Exam"
+},
+{
+  "_id": {
+    "$oid": "66eaf8943f35b9334627ac61"
+  },
+  "couses": {
+    "$oid": "66eaeeee3f35b9334627ac2e"
+  },
+  "questions": [
+    {
+      "$oid": "66eaf2153f35b9334627ac39"
+    },
+    {
+      "$oid": "66eaf3363f35b9334627ac41"
+    },
+    {
+      "$oid": "66eaf3963f35b9334627ac42"
+    },
+    {
+      "$oid": "66eaf3ac3f35b9334627ac43"
+    },
+    {
+      "$oid": "66eaf3ae3f35b9334627ac44"
+    },
+    {
+      "$oid": "66eaf4b73f35b9334627ac45"
+    },
+    {
+      "$oid": "66eaf51e3f35b9334627ac46"
+    },
+    {
+      "$oid": "66eaf5a73f35b9334627ac47"
+    },
+    {
+      "$oid": "66eaf6573f35b9334627ac4a"
+    }
+  ],
+  "maxScore": 20,
+  "time": 7200,
+  "name": "a2Exam"
+},
+{
+  "_id": {
+    "$oid": "66eaf8a43f35b9334627ac64"
+  },
+  "couses": {
+    "$oid": "66eaef4d3f35b9334627ac2f"
+  },
+  "questions": [
+    {
+      "$oid": "66eaf2153f35b9334627ac39"
+    },
+    {
+      "$oid": "66eaf3363f35b9334627ac41"
+    },
+    {
+      "$oid": "66eaf3963f35b9334627ac42"
+    },
+    {
+      "$oid": "66eaf3ac3f35b9334627ac43"
+    },
+    {
+      "$oid": "66eaf3ae3f35b9334627ac44"
+    },
+    {
+      "$oid": "66eaf4b73f35b9334627ac45"
+    },
+    {
+      "$oid": "66eaf51e3f35b9334627ac46"
+    },
+    {
+      "$oid": "66eaf5a73f35b9334627ac47"
+    },
+    {
+      "$oid": "66eaf6573f35b9334627ac4a"
+    }
+  ],
+  "maxScore": 20,
+  "time": 7200,
+  "name": "a2Exam"
+}]
