@@ -6,7 +6,7 @@ import authRoutes from './routes/auth.routes.js'
 import userRoutes from './routes/user.routes.js'
 import {validateCORS} from './middlewares/middleware.js'
 import questionRoutes from "./routes/questions.routes.js"
-
+import examRouter from './routes/exams.routes.js'
 
 const app = express()
 app.use(express.json())
@@ -14,6 +14,7 @@ app.use(validateCORS)
 app.use('/api/users', userRoutes)
 app.use('/api/auth', authRoutes)
 app.use('/api/questions', questionRoutes)
+app.use('/api/exams', examRouter)
 
 connect(DB_URL).then(()=>{
   app.listen(PORT, () => {

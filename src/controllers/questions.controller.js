@@ -19,6 +19,15 @@ class QuestionController {
             r.status(500).json({ message: error.message })
         }
     }
+    static async getQuestions(req, res) {
+        try {
+            const questions = await Question.find()
+            console.log(questions)
+            res.json({ data: questions })
+        } catch (error) {
+            res.status(500).json({ message: error.message })
+        }
+    }
 }
 
 export default QuestionController
