@@ -7,9 +7,11 @@ class AuthController {
     static async login (req, res) {
       try {
         const { username, password } = req.body
-  
-        const user = await User.findOne({ username })
+       
+        const user = await User.findOne({ username})
+        
         if (!user) return res.status(404).json({ message: 'El usuario no existe' })
+         
   
         const isValid = await bcrypt.compare(password, user.password)
         if (!isValid) return res.status(400).json({ message: 'Credenciales inválidas' })
