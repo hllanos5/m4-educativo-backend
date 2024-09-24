@@ -22,11 +22,17 @@ class QuestionController {
     static async getQuestions(req, res) {
         try {
             const questions = await Question.find()
-            console.log(questions)
             res.json({ data: questions })
         } catch (error) {
             res.status(500).json({ message: error.message })
         }
+    }
+    static async getQuestionsId(req, res) {
+        try {
+            const question = await Question.findById(req.params.id);
+            if (!question) return res.status(404).json({ message: 'Pregunta no encontrada' });
+            res.json({ data: question });
+        } catch (error) { res.status(500).json({ message: error.message }); }
     }
 }
 
