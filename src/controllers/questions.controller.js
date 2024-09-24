@@ -21,11 +21,9 @@ class QuestionController {
     }
     static async getQuestions(req, res) {
         try {
-            const questions = await Question.find()
+            const questions = await Question.find({}, {type:1, points:1, level:1})
             res.json({ data: questions })
-        } catch (error) {
-            res.status(500).json({ message: error.message })
-        }
+        } catch (error) { res.status(500).json({ message: error.message }) }
     }
     static async getQuestionsId(req, res) {
         try {

@@ -2,15 +2,15 @@ import Exams from '../models/Exams.js';
 class ExamController {
     static async getExams(req, res) {
         try {
-            const exams = await Exams.find()
-            res.json({ data: exams })
+            const questions = await Exams.find({}, { couses: 1, time: 1, maxScore: 1, name: 1 })
+            res.json({ data: questions })
         } catch (error) { res.status(500).json({ message: error.message }) }
     }
     static async getExamsId(req, res) {
         try {
-            const exams = await Exams.findById(req.params.id);
-            if (!exams) return res.status(404).json({ message: 'examen no encontrado' });
-            res.json({ data: exams });
+            const question = await Exams.findById(req.params.id);
+            if (!question) return res.status(404).json({ message: 'examen no encontrado' });
+            res.json({ data: question });
         } catch (error) { res.status(500).json({ message: error.message }); }
     }
 }
