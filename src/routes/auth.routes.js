@@ -1,6 +1,6 @@
-import {Router} from 'express'
+import { Router } from 'express'
 import AuthController from '../controllers/AuthController.js'
-import {validateJWT} from '../middlewares/auth.middleware.js'
+import { validateJWT } from '../middlewares/auth.middleware.js'
 
 const router = Router()
 

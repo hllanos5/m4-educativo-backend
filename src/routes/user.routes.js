@@ -1,6 +1,6 @@
-import {Router} from 'express'
+import { Router } from 'express'
 import UserController from '../controllers/UserController.js'
-import {validateID} from '../middlewares/middleware.js'
+import { validateID } from '../middlewares/middleware.js'
 
 const router = Router()
 

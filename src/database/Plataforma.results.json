@@ -1,0 +1,47 @@
+[{
+  "_id": {
+    "$oid": "66f41ccaf487506783c0c106"
+  },
+  "exam": {
+    "$oid": "66f4192b77cc558a34b27fc7"
+  },
+  "user": {
+    "$oid": "66eaf8ea3f35b9334627ac6c"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66eaf2153f35b9334627ac39"
+      },
+      "answer": "cat",
+      "_id": {
+        "$oid": "66f41ccaf487506783c0c107"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf3363f35b9334627ac41"
+      },
+      "answer": "books",
+      "_id": {
+        "$oid": "66f41ccaf487506783c0c108"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf6573f35b9334627ac4a"
+      },
+      "video": {
+        "$oid": "66f41ccaf487506783c0c101"
+      },
+      "_id": {
+        "$oid": "66f41ccaf487506783c0c109"
+      }
+    }
+  ],
+  "points": 20,
+  "date": {
+    "$date": "2024-09-25T14:22:18.801Z"
+  },
+  "__v": 0
+}]
