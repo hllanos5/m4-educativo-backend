@@ -4,5 +4,6 @@ import QuestionController from "../controllers/QuestionController.js"
 const router = Router()
 
 router.post('/', QuestionController.storeQuestion)
-router.get('/:id', QuestionController.getQuestions)
+router.get('/', QuestionController.getQuestions)
+router.get('/:id', QuestionController.getQuestionsId)
 export default router
