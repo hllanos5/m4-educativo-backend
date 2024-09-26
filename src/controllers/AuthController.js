@@ -10,14 +10,10 @@ class AuthController {
 
       const user = await User.findOne({ username })
 
-      console.log(user);
-
       if (!user) return res.status(404).json({ message: 'El usuario no existe' })
 
-      const isValid = bcrypt.compare(password, user.password)
+      const isValid = await bcrypt.compare(password, user.password)
 
-
-      console.log(isValid);
       if (!isValid) return res.status(400).json({ message: 'Credenciales inválidas' })
 
       const token = jwt.sign({ userId: user._id }, SECRET_KEY, { expiresIn: '1h' })
