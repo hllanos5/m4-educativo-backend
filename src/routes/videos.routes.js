@@ -1,10 +1,10 @@
 import { Router } from 'express';
-//import VideoController from '../controllers/VideoController.js';
-//import { handleErrors } from '../middlewares/middleware.js';
+import VideoController from '../controllers/VideoController.js';
 
 const router = Router();
 
-//router.get('/', VideoController.getUserVideos, handleErrors);
-//router.get('/:id', VideoController.getVideoById, handleErrors);
+router.get('/', VideoController.getVideo);
+router.get('/:id', VideoController.getVideoId);
+router.get('/user', VideoController.getVideoPorUserId);
 
 export default router;
