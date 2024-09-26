@@ -2,7 +2,7 @@ import Exams from '../models/Exams.js';
 class ExamController {
     static async getExams(req, res) {
         try {
-            const questions = await Exams.find({}, { couses: 1, time: 1, maxScore: 1, name: 1 })
+            const questions = await Exams.find()
             res.json({ data: questions })
         } catch (error) { res.status(500).json({ message: error.message }) }
     }

@@ -13,8 +13,8 @@ app.use(express.json())
 app.use(validateCORS)
 app.use('/api/users', userRoutes)
 app.use('/api/auth', authRoutes)
-app.use('/api/questions', questionRoutes)
 app.use('/api/exams', examRouter)
+app.use('/api/questions', questionRoutes)
 app.use('/api/results', resultRoutes)
 app.use('/api/videos', videoRoutes);
 
