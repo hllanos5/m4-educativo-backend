@@ -6,7 +6,7 @@
   "question": "How do you say “gato” in English?",
   "answer": "cat",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -16,7 +16,7 @@
   "question": "What is the plural of “book”?",
   "answer": "books",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -26,7 +26,7 @@
   "question": "What is the past tense of “play”?",
   "answer": "played",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -36,7 +36,7 @@
   "question": "What is the opposite of “tall”?",
   "answer": "short",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -52,7 +52,7 @@
   ],
   "answer": "goes",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -68,7 +68,7 @@
   ],
   "answer": "blue",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -84,7 +84,7 @@
   ],
   "answer": "I am happy",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -100,7 +100,7 @@
   ],
   "answer": "am",
   "points": 10,
-  "level": "elementary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -109,7 +109,7 @@
   "type": "video",
   "question": "Record a video talking about your family members",
   "points": "20",
-  "level": "elemtary"
+  "level": "Elementary"
 },
 {
   "_id": {
@@ -119,12 +119,80 @@
   "question": "¿Cuál es la capital de Francia?",
   "answer": "París",
   "points": 5,
-  "level": "elementary",
+  "level": "Elementary",
   "createdAt": {
     "$date": "2024-09-22T04:40:38.204Z"
   },
   "updatedAt": {
     "$date": "2024-09-22T04:40:38.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f1c5b132e29418caa13418"
+  },
+  "type": "simple",
+  "question": "¿Cuál es la capital de Francia2?",
+  "answer": "París2",
+  "points": 15,
+  "level": "Elementary",
+  "createdAt": {
+    "$date": "2024-09-23T19:46:57.730Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-23T19:46:57.730Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f4ab4d1e467eb275ba5a62"
+  },
+  "type": "Pregunta Simple",
+  "question": "Prueba?",
+  "answer": "Si",
+  "points": 10,
+  "level": "Elementary",
+  "createdAt": {
+    "$date": "2024-09-26T00:31:09.495Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-26T00:31:09.495Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f4d85b1e50909bd9bdc81a"
+  },
+  "type": "simple",
+  "question": "Prueba nose",
+  "answer": "se",
+  "points": 50,
+  "level": "Elementary",
+  "createdAt": {
+    "$date": "2024-09-26T03:43:23.761Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-26T03:43:23.761Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f5a62d0f123e5f3cb84d8b"
+  },
+  "type": "simple",
+  "question": "¿Cuál es la capital de Francia2?",
+  "answer": "París2",
+  "points": 15,
+  "level": "Elementary",
+  "createdAt": {
+    "$date": "2024-09-26T18:21:33.486Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-26T18:21:33.486Z"
   },
   "__v": 0
 }]

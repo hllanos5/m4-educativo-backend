@@ -1,34 +1,56 @@
 [{
   "_id": {
-    "$oid": "66eaf8ea3f35b9334627ac6c"
+    "$oid": "66f5a0f4370355fb539791bc"
   },
-  "rol": "student",
-  "name": "Francisco",
-  "mName": "Manuel",
-  "lname": "Vazquez Luna",
-  "email": "franciscoV@mail.com",
-  "password": "1234",
-  "courses": [
-    {
-      "$oid": "66eaee833f35b9334627ac2c"
-    }
-  ],
-  "username": "paco97"
+  "name": "Hans",
+  "mName": "Jonathan",
+  "lName": "Llanos",
+  "username": "hllanos",
+  "email": "hans.llanos@gmail.com",
+  "password": "$2b$10$PnglluwYiAXb/lJMYdccXOuPaI.PH244uvkWE3iyBokGksW2odjLG",
+  "courses": [],
+  "__v": 0,
+  "rol": "student"
 },
 {
   "_id": {
-    "$oid": "66eafd3a3f35b9334627ac6f"
+    "$oid": "66f5b30b1a19c76ed9ad312c"
   },
-  "rol": "teacher",
-  "name": "Harold",
-  "mName": "",
-  "lname": "Carazas",
-  "email": "haroldC@mail.com",
-  "password": "",
-  "courses": [
-    {
-      "$oid": "66eaee833f35b9334627ac2c"
-    }
-  ],
-  "username": "harold123"
+  "role": "student",
+  "name": "Javier",
+  "mName": "Cordero",
+  "lName": "Cordero",
+  "username": "jcordero",
+  "email": "jcordero@gmail.com",
+  "password": "$2b$10$IXH3lqs4wERSFj596efbbuCNN9YtyZaTa.Qyd/cYpJUzWcLanAkuq",
+  "courses": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f5b8cfb8d593e98e8741b1"
+  },
+  "role": "student",
+  "name": "estudiante",
+  "mName": "estudiante",
+  "lName": "estudiante",
+  "username": "estudiante",
+  "email": "estudiante@gmail.com",
+  "password": "$2b$10$OrgSpAj9UMFkS.n3EC7w0u6964zIXvNp9rUCiwCX0o3TZL.kWWG6m",
+  "courses": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f5b914b8d593e98e8741b7"
+  },
+  "role": "teacher",
+  "name": "profesor",
+  "mName": "profesor",
+  "lName": "profesor",
+  "username": "profesor",
+  "email": "profesor@gmail.com",
+  "password": "$2b$10$H8TeEzqUDXvr1ykkqXySnezh4PrKEmejfU0zirUq87htqUpF52VTq",
+  "courses": [],
+  "__v": 0
 }]

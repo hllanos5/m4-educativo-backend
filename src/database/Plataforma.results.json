@@ -44,4 +44,98 @@
     "$date": "2024-09-25T14:22:18.801Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f5b1681a19c76ed9ad3125"
+  },
+  "exam": {
+    "$oid": "66eaeff23f35b9334627ac31"
+  },
+  "user": {
+    "$oid": "66f5a0f4370355fb539791bc"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66eaf2153f35b9334627ac39"
+      },
+      "answer": "cat",
+      "_id": {
+        "$oid": "66f5b1681a19c76ed9ad3126"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf3363f35b9334627ac41"
+      },
+      "answer": "books",
+      "_id": {
+        "$oid": "66f5b1681a19c76ed9ad3127"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf6573f35b9334627ac4a"
+      },
+      "video": {
+        "$oid": "66f5b1681a19c76ed9ad3120"
+      },
+      "_id": {
+        "$oid": "66f5b1681a19c76ed9ad3128"
+      }
+    }
+  ],
+  "points": 20,
+  "date": {
+    "$date": "2024-09-26T19:04:03.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66f5c470a41ea44d8477438f"
+  },
+  "exam": {
+    "$oid": "66eaeff23f35b9334627ac31"
+  },
+  "user": {
+    "$oid": "66f5b8cfb8d593e98e8741b1"
+  },
+  "answers": [
+    {
+      "question": {
+        "$oid": "66eaf2153f35b9334627ac39"
+      },
+      "answer": "cat",
+      "_id": {
+        "$oid": "66f5c470a41ea44d84774390"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf3363f35b9334627ac41"
+      },
+      "answer": "books",
+      "_id": {
+        "$oid": "66f5c470a41ea44d84774391"
+      }
+    },
+    {
+      "question": {
+        "$oid": "66eaf6573f35b9334627ac4a"
+      },
+      "video": {
+        "$oid": "66f5c470a41ea44d8477438a"
+      },
+      "_id": {
+        "$oid": "66f5c470a41ea44d84774392"
+      }
+    }
+  ],
+  "points": 20,
+  "date": {
+    "$date": "2024-09-26T20:19:16.211Z"
+  },
+  "__v": 0
 }]
