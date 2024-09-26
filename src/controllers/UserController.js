@@ -28,8 +28,8 @@ static async getById (req, res) {
 
 static async store (req, res) {
     try {
-        const {fName, mName, lName, username, email, password} = req.body
-        if (!fName || !mName || !lName || !username || !email || !password ) return res.status(400).json({message: 'Faltan datos'})
+        const {name, mName, lName, username, email, password, role} = req.body
+        if (!name || !mName || !lName || !username || !email || !password || !role ) return res.status(400).json({message: 'Faltan datos'})
 
             const userEmail = await User.findOne({email})
             if (userEmail) return res.status(400).json({message: 'El correo ya existe'})
@@ -39,11 +39,12 @@ static async store (req, res) {
 
                 const hash = await bcrypt.hash(password, 10)
                 const user = await User.create({
-                    fName,
+                    name,
                     mName,
                     lName,
                     username,
                     email,
+                    role,
                     password: hash
                   })
                   const userObj = user.toObject()
