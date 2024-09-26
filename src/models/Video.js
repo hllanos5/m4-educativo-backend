@@ -1,24 +1,24 @@
-import { Schema, model, Types } from 'mongoose'
-import User from './User.js'
-import Exam from './Exams.js'
+import { Schema, model, Types } from 'mongoose';
+import User from './User.js';
+import Exam from './Exams.js';
 
 const videoSchema = new Schema({
-  video: {
-    type: String,
-    required: true
-  },
-  user: {
-    type: Types.ObjectId,
-    ref: User,
-    required: true
-  },
-  exam: {
-    type: Types.ObjectId,
-    ref: Exam,
-    required: true
-  }
-}, { timestamps: true })
+    video: {
+        type: String,
+        required: true
+    },
+    user: {
+        type: Types.ObjectId,
+        ref: User,
+        required: true
+    },
+    exam: {
+        type: Types.ObjectId,
+        ref: Exam,
+        required: true
+    }
+}, { timestamps: true });
 
-const Video = model('Video', videoSchema)
+const Video = model('Video', videoSchema);
 
-export default Video
+export default Video;
