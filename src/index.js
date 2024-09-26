@@ -8,6 +8,7 @@ import questionRoutes from './routes/questions.routes.js'
 import examRouter from './routes/exams.routes.js'
 import resultRoutes from './routes/results.routes.js'
 import videoRoutes from './routes/videos.routes.js'
+import coursesRoutes from './routes/courses.routes.js'
 const app = express()
 
 app.use(express.json())
@@ -19,6 +20,7 @@ app.use('/api/exams', examRouter)
 app.use('/api/questions', questionRoutes)
 app.use('/api/results', resultRoutes)
 app.use('/api/videos', videoRoutes);
+app.use('/api/courses', coursesRoutes);
 
 connect(DB_URL).then(() => {
   app.listen(PORT, () => {
