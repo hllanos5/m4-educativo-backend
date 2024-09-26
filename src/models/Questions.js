@@ -6,7 +6,7 @@ const questionSchema = new mongoose.Schema({
   question: { type: String, required: true },
   answer: { type: String, required: true },
   points: { type: Number, required: true },
-  level: { type: String, enum: ['elementary', 'A1', 'A2'], required: true }
+  level: { type: String, enum: ['Elementary', 'A1', 'A2', 'B1', 'B2', 'C1'], required: true }
 
 }, { timestamps: true })
 
