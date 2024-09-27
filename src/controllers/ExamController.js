@@ -1,4 +1,6 @@
 import Exams from '../models/Exams.js';
+import Course from '../models/Course.js';
+
 class ExamController {
     static async getExams(req, res) {
         try {
@@ -16,10 +18,17 @@ class ExamController {
 
     static async getExamsByCourse(req, res) {
         try {
-            const aExamen = await Exams.find({ courses: req.params.id }).populate('courses').populate('question');
+            const { id } = req.params
+
+            const curso = await Course.findById(id)
+            if (!curso) return res.status(404).json({ message: 'Curso no encontrado' })
+
+            console.log(curso);
             
-            if (!aExamen) return res.status(404).json({ message: 'examen no encontrado' });
-            res.json({ data: aExamen });
+
+            const examenes = await Exams.find({ courses: id })
+            res.json(examenes)
+
         } catch (error) { res.status(500).json({ message: error.message }); }
     }
 }
