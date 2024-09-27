@@ -10,7 +10,7 @@ class ExamController {
     }
     static async getExamsId(req, res) {
         try {
-            const question = await Exams.findById(req.params.id);
+            const question = await Exams.findById(req.params.id).populate('questions', '-answer');
             if (!question) return res.status(404).json({ message: 'examen no encontrado' });
             res.json({ data: question });
         } catch (error) { res.status(500).json({ message: error.message }); }
