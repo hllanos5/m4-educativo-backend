@@ -13,6 +13,15 @@ class ExamController {
             res.json({ data: question });
         } catch (error) { res.status(500).json({ message: error.message }); }
     }
+
+    static async getExamsByCourse(req, res) {
+        try {
+            const aExamen = await Exams.find({ courses: req.params.id }).populate('courses').populate('question');
+            
+            if (!aExamen) return res.status(404).json({ message: 'examen no encontrado' });
+            res.json({ data: aExamen });
+        } catch (error) { res.status(500).json({ message: error.message }); }
+    }
 }
 
 export default ExamController
